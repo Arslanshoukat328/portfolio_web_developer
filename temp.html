@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Web Developer & Web Scraping Expert</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Arslan Shoukat</h1>
+                <h2 class="title">Web Developer & Web Scraping Expert</h2>
+                <p class="description">
+                    I build exceptional websites and extract valuable data from the web.
+                    Passionate about creating seamless user experiences and powerful data solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/arslanshoukat328" aria-label="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arslan-shoukat-python-full-stack/" aria-label="LinkedIn"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="code-animation">
+                        <pre><code>&lt;div class="developer"&gt;
+  &lt;skills&gt;
+    Web Development
+    Web Scraping
+    Data Extraction
+  &lt;/skills&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <i class="fas   "><img src="src\images\self-portrait.jpg" alt="Self Portrait"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I've spent the last five years helping businesses and individuals turn raw data into something
+                        useful. As a freelancer, I've built web scraping systems that extracted millions of records from
+                        sites like Amazon and LoopNet—which meant I had to truly understand how each website worked,
+                        whether the data was static, dynamically loaded, or hidden behind APIs. I've created desktop
+                        applications that let clients watch their data come in live, and built automation pipelines that
+                        run reliably on servers.
+
+                    </p>
+                    <p>
+                        Lately, I've been focused on web development, working with Django and
+                        React to build full-stack applications from the ground up. I'm the kind of developer who likes
+                        to understand how things work, then make them better—like when I took an open-source password
+                        manager, added encrypted fields, and deployed it securely for remote access. I'm driven by
+                        curiosity, clarity, and code that just works.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">180+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">90+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                    <a href="src\files\Arslan_Shoukat_(arslan.shoukat.ali@outlook.com)_CV.pdf" class="btn btn-primary"
+                        target="_blank" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Web Development Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab"> <img src="src\images\django.svg" alt="" style="height: 30px;"></i>
+                            <span>Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Scraping Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-spider"></i>
+                        <h3>Web Scraping</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-flask"></i>
+                            <span>BeautifulSoup</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Scrapy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fab-selenium "><img src="src\images\selenium.svg" alt=""
+                                    style="height: 30px;"></i>
+                            <span>Selenium</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-theater-masks"></i>
+                            <span>PlayWright</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Data Processing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="scraping">Web Scraping</button>
+            <button class="filter-btn" data-filter="desktop">Desktop Apps</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Password Manager (Web) -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-lock"></i>
+                    </div>
+
+                    
+                </div>
+                <div class="project-info">
+                    <h3>Encrypted Password Manager</h3>
+                    <p>Modified open-source Django password manager—added custom fields with encryption and deployed securely with Tailscale remote access.</p>
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Encryption</span>
+                        <span>Tailscale</span>
+                        <span>Server Deployment</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full-Stack Web App (Web) -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+
+                </div>
+                <div class="project-info">
+                    <h3>Django-React CRUD App</h3>
+                    <p>Full-stack web application with Django backend (CRUD operations) and React frontend connected via Django REST Framework.</p>
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>REST Framework</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop Scraper App (Desktop) -->
+            <div class="project-card" data-category="desktop">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+
+                </div>
+                <div class="project-info">
+                    <h3>Multi-Site Scraper Desktop App</h3>
+                    <p>PyQt5 desktop application that scrapes multiple websites and displays data in real-time spreadsheet view with input/output options and subscription-based access control.</p>
+                    <div class="project-tags">
+                        <span>PyQt5</span>
+                        <span>Python</span>
+                        <span>Real-time Display</span>
+                        <span>Subscription</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookpad Scraper (Scraping) -->
+            <div class="project-card" data-category="scraping">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+
+                </div>
+                <div class="project-info">
+                    <h3>Cookpad Recipe Extractor</h3>
+                    <p>Scraped 2+ million recipe records including ingredients, instructions, and metadata with intelligent parsing and data normalization.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Web Scraping</span>
+                        <span>Data Cleaning</span>
+                        <span>CronJob</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amazon Book Filter (Scraping) -->
+            <div class="project-card" data-category="scraping">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-book"></i>
+                    </div>
+
+                </div>
+                <div class="project-info">
+                    <h3>Amazon Book Qualification System</h3>
+                    <p>Filtered millions of Amazon books using intelligent algorithms to identify qualifying titles, then scraped complete data for matches.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Data Filtering</span>
+                        <span>API Integration</span>
+                        <span>Browser Automation</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LoopNet Real Estate (Scraping) -->
+            <div class="project-card" data-category="scraping">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-building"></i>
+                    </div>
+
+                </div>
+                <div class="project-info">
+                    <h3>LoopNet Real Estate Tracker</h3>
+                    <p>Complete extraction of all LoopNet real estate listings twice with 6-month interval, enabling market trend analysis and price comparison.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Web Scraping</span>
+                        <span>Data Pipeline</span>
+                        <span>Server Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind? Need help with web development or data extraction?
+                        I'm always open to discussing new projects and opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>arslan.shoukat.ali@outlook.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Bahawalpur, Punjab, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+92 302 1768451</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links contact-social">
+                        <a href="https://github.com/arslanshoukat328" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/arslan-shoukat-python-full-stack/" aria-label="LinkedIn"
+                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+
+
+                    </div>
+                </div>
+                <!-- <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Portfolio<span>.</span></a>
+                    <p>Building the web, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Web Scraping</li>
+                        <li>Data Extraction</li>
+                        <li>API Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arslan Shoukat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
